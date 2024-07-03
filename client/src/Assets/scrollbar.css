@@ -1,0 +1,27 @@
+/* Hide the default scrollbar */
+.scroll-container {
+  overflow-x: auto;
+}
+
+/* Define scrollbar styles for Chrome */
+.scroll-container::-webkit-scrollbar {
+  height: 5px; /* Width of the scrollbar */
+}
+
+/* Track styles */
+.scroll-container::-webkit-scrollbar-track {
+  background: red; /* Color of the track */
+}
+
+/* Handle styles */
+.scroll-container::-webkit-scrollbar-thumb {
+  background: green; /* Color of the thumb */
+  border-radius: 50px; /* Border radius of the thumb */
+}
+
+/* Apply scrollbar to the content */
+.scroll-content {
+  width: 100%; /* Adjust width as needed */
+  height: 1000px; /* Adjust height as needed */
+  /* Add any other styles for your content */
+}
