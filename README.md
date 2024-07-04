@@ -1,2 +1,2 @@
 # RentIt
-The project vision is to provide a platform to connect item owners and renters. It can allow renters to acquire items to cater their needs rather than buying the items and be subject to a financial constraint. The Project will utilize Artificial Intelligence &amp; NLP to set it apart from others.
+RentIt is a web application that provides an online platform which connects owners of household items with renters. It is implemented using React.js for front-end, Node.js and Express.js for back-end, MySQL as a database and Python for the recommender system.
